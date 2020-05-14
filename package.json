@@ -1,0 +1,20 @@
+{
+    "name": "actions-builder-facts-about-google",
+    "version": "0.0.0",
+    "private": true,
+    "description": "An Action that demonstrates multi-modal responses.",
+    "engines": {
+      "node": "8"
+    },
+    "scripts": {
+      "lint": "eslint \"**/*.js\"",
+      "lint:fix": "eslint --fix \"**/*.js\"",
+      "test": "npm run lint",
+      "serve": "firebase serve",
+      "deploy": "firebase deploy"
+    },
+    "devDependencies": {
+      "eslint": "^5.2.0",
+      "eslint-config-google": "^0.9.1"
+    }
+  }
