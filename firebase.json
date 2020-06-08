@@ -28,6 +28,6 @@
     ]
   },
   "functions": {
-    "source": "sdk/webhooks/Fulfillment"
+    "source": "sdk/webhooks/ActionsOnGoogleFulfillment"
   }
 }

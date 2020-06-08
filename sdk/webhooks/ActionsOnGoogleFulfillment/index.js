@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Google Inc. All Rights Reserved.
+ * Copyright 2020 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,11 +22,11 @@ const {
   Link,
   Suggestion,
   Image,
-} = require('actions-on-google');
+} = require('@assistant/conversation');
 const functions = require('firebase-functions');
 const firebaseConfig = JSON.parse(process.env.FIREBASE_CONFIG);
 
-const app = conversation();
+const app = conversation({debug: true});
 
 const categories = {
   history: {

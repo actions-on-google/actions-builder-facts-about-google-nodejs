@@ -4,7 +4,7 @@
     "private": true,
     "description": "An Action that demonstrates multi-modal responses.",
     "engines": {
-      "node": "8"
+      "node": "10"
     },
     "scripts": {
       "lint": "eslint \"**/*.js\"",

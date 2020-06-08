@@ -1,4 +1,4 @@
-# Copyright 2020 Google Inc. All Rights Reserved.
+# Copyright 2020 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,13 +14,14 @@
 defaultLocale: en
 category: GAMES_AND_TRIVIA
 localizedSettings:
-  developerEmail: example@example.com
-  developerName: Example Developer Name
-  fullDescription: Facts About Google Action.
-  pronunciation: Facts About Google test
-  privacyPolicyUrl: https://example.com
-  sampleInvocations:
-  - talk to Facts About Google test
-  shortDescription: Facts About Google test action.
+  developerEmail:
+  developerName:
+  displayName: Facts about google sample
+  fullDescription:
+  privacyPolicyUrl:
+  pronunciation: Facts about google sample
+  shortDescription:
+  smallLogoImage:
+  termsOfServiceUrl:
 projectId: <PROJECT_ID>
 usesInteractiveCanvas: true
